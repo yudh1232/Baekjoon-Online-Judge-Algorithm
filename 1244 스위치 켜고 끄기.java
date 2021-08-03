@@ -41,28 +41,20 @@ public class Main {
 			}
 		}
 		
-		StringBuilder sb;
-		
-		int a = (n - 1) / 20;
-		int b = (n - 1) % 20;
-		
-		for (int i = 0; i < a; i++) {
-			sb = new StringBuilder();
-			for (int j = 1; j <= 20; j++) {
-				sb.append(switchs[20 * i + j]);
-				sb.append(" ");
+		StringBuilder sb = new StringBuilder();
+		for (int i = 1; i <= n; i++) {
+			sb.append(switchs[i]);
+			sb.append(" ");
+			if (i % 20 == 0) {
+				sb.setLength(sb.length() - 1);
+				System.out.println(sb);
+				sb = new StringBuilder();
 			}
+		}
+		if (sb.length() != 0) {
 			sb.setLength(sb.length() - 1);
 			System.out.println(sb);
 		}
-		
-		sb = new StringBuilder();
-		for (int i = 1; i <= b + 1; i++) {
-			sb.append(switchs[20 * a + i]);
-			sb.append(" ");
-		}
-		sb.setLength(sb.length() - 1);
-		System.out.println(sb);
 		
 	}
 
