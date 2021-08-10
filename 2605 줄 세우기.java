@@ -18,14 +18,17 @@ public class Main {
 		
 		LinkedList<Integer> line = new LinkedList<Integer>();
 		for (int i = 0; i < n; i++) {
+			// (학생의 원래 위치 - 학생이 뽑은 번호) index에 넣어줌
 			line.add(i - number[i], i + 1);
 		}
 		
+		// 출력문 생성
 		for (int i = 0; i < n; i++) {
 			sb.append(line.get(i)).append(" ");
-		}
-		
+		}		
 		sb.setLength(sb.length() - 1);
+		
+		// 결과 출력
 		System.out.println(sb);
 	}
 }
