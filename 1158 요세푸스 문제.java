@@ -1,9 +1,7 @@
-package _0810;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_1158_요세푸스문제 {
+public class Main {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
