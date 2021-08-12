@@ -1,9 +1,7 @@
-package _0812;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_2669_직사각형네개의합집합의면적구하기 {
+public class Main {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
