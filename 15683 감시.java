@@ -1,9 +1,7 @@
-package _0820;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_15683_감시 {
+public class Main {
 
 	static int n, m, result;
 	static int[][] map, temp;
