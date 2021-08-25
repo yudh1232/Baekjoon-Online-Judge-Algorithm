@@ -1,6 +1,8 @@
+package _0825;
+
 import java.io.*;
 
-public class Main {
+public class BOJ_10026_적록색약 {
 
 	static int n;
 	static char[][] data;
@@ -20,7 +22,7 @@ public class Main {
 			data[i] = in.readLine().toCharArray();
 		}
 		
-		// dfs를 위한 visitsed 배열 생성
+		// dfs를 위한 visited 배열 생성
 		visited = new boolean[n][n];
 		
 		// 적록색약이 아닌 결과값 구하기
@@ -39,7 +41,7 @@ public class Main {
 			}
 		}
 		
-		// dfs를 위한 visitsed 배열 다시 생성
+		// dfs를 위한 visited 배열 다시 생성
 		visited = new boolean[n][n];
 		
 		// 적록색약인 결과값 구하기
