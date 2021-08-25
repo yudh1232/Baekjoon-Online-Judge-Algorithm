@@ -1,9 +1,7 @@
-package _0825;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_16236_아기상어 {
+public class Main {
 
 	static int n, sharkX, sharkY, size;
 	static int[][] grid;
