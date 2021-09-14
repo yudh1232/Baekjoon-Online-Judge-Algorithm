@@ -1,5 +1,3 @@
-package com.algo.hw18;
-
 import java.io.*;
 import java.util.*;
 
