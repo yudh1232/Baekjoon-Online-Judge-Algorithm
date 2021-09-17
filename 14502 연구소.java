@@ -1,9 +1,7 @@
-package _0917;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_14502_연구소 {
+public class Main {
 
 	static int n, m;
 	static int[][] grid, temp, blank, virus;
