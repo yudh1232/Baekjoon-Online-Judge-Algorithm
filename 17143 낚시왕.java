@@ -1,9 +1,7 @@
-package _0930;
-
 import java.io.*;
 import java.util.*;
 
-public class BOJ_17143_낚시왕 {
+public class Main {
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
